@@ -38,6 +38,9 @@ module.exports = class extends Generator {
         version: '0.0.0',
         description: this.props.description,
         keywords: [],
+        scripts: {
+          "start": "webpack-dev-server --open"
+        },
         dependencies: {
           "classnames": "^2.2.5",
           "react": "^16.2.0",
